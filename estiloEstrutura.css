@@ -309,7 +309,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("imagens/ilhaInvisivel.png");
+    background-image: url("/imagens/ilhaInvisivel.png");
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -373,7 +373,7 @@
 /*Efeito de Bolhas*/
 .bolhas-descida {
     position: absolute;
-    /* Essencial para que as bolhas flutuem em toda a seção */
+    /* Bolhas */
     display: flex;
     z-index: 2;
     /* Fica entre o overlay (1) e o conteúdo (3) */
@@ -387,7 +387,7 @@
 
 .bolhas-descida span {
     position: absolute;
-    /* Essencial para que cada bolha se mova independentemente */
+    /* Bolhas aleatórias*/
     display: block;
     width: 30px;
     height: 30px;
@@ -494,7 +494,7 @@
 /*Efeito de bolhas*/
 .bolhas-crepusculo {
     position: absolute;
-    /* Essencial para que as bolhas flutuem em toda a seção */
+    /* Bolhas flutuando por tudo*/
     display: flex;
     z-index: 2;
     /* Fica entre o overlay (1) e o conteúdo (3) */
@@ -508,7 +508,7 @@
 
 .bolhas-crepusculo span {
     position: absolute;
-    /* Essencial para que cada bolha se mova independentemente */
+    /* Bolhas  */
     display: block;
     width: 30px;
     height: 30px;
