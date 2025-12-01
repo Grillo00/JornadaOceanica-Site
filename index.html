@@ -235,7 +235,7 @@
 <body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-200 antialiased">
 
     <div id="sidebar-overlay" class="fixed inset-0 bg-black/50 z-30 hidden"></div>
-
+    <!--
     <button id="sidebar-toggle"
     class="fixed top-1/2 left-4 z-50 transform -translate-y-1/2 transition-transform duration-300 ease-in-out">
     
@@ -244,6 +244,7 @@
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
     </svg>
     </button>
+    
     <aside id="sidebar-menu"
         class="fixed top-0 left-0 z-40 h-screen w-72 bg-white/95 dark:bg-gray-800/95 backdrop-blur-md shadow-lg transform -translate-x-full">
 
@@ -293,8 +294,9 @@
             </button>
         </div>
     </aside>
-
+    -->
     <!-- "ABA" DA SIDEBAR (BOTÃO DE SETA) -->
+     <!--
     <button id="sidebar-toggle" type="button"
         class="fixed top-1/2 left-0 z-50 transform -translate-y-1/2 flex items-center justify-center w-10 h-24 rounded-l-none rounded-r-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-md  text-blue-800 dark:text-blue-300 shadow-lg hover:bg-gray-200 dark:hover:bg-gray-700">
         <span class="sr-only">Abrir/Fechar menu</span>
@@ -305,7 +307,7 @@
                 clip-rule="evenodd"></path>
         </svg>
     </button>
-
+        -->
     <main>
 
         <!-- INTRODUÇÃO-->
@@ -1238,7 +1240,7 @@ O resultado é a formação das chamadas “zonas mortas”, áreas onde o oxig�
                 }
             });
         });
-
+        /*
         // --- Lógica da Sidebar (AGORA NO LUGAR CERTO) ---
         const sidebarToggle = document.getElementById('sidebar-toggle');
         const sidebarMenu = document.getElementById('sidebar-menu');
@@ -1283,7 +1285,7 @@ O resultado é a formação das chamadas “zonas mortas”, áreas onde o oxig�
         sidebarLinks.forEach(link => {
             link.addEventListener('click', closeSidebar);
         });
-
+        */
 
         // --- Lógica Global (Tecla 'Escape' para TUDO) ---
         // Este listener agora controla tanto Modais quanto a Sidebar
